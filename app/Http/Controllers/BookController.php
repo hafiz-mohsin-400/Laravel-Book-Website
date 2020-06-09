@@ -1,2 +1,2 @@
-the number of planets are
-nine
+the number of planets ar
+nine or eight by researchers
