@@ -15,8 +15,8 @@ class BookController extends Controller
     
    public function show_by_author($slug)
    {
-   		$bookbyauthor = Book::with('author')->where('slug', $slug)->first();
-   		return view('book.detail')->with(compact('bookbyauthor'));
+   		$book_by_author = Book::with('author')->where('slug', $slug)->first();
+   		return view('book.detail')->with(compact('book_by_author'));
    }
     
    public function show_book_by_active()
